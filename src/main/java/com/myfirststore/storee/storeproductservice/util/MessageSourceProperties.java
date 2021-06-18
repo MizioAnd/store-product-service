@@ -1,4 +1,4 @@
-package com.myfirststore.storee.product.util;
+package com.myfirststore.storee.storeproductservice.util;
 
 public enum MessageSourceProperties {
     PRODUCT_NOT_FOUND("product.not.found");

@@ -1,7 +1,7 @@
-package com.myfirststore.storee.product.mapper;
+package com.myfirststore.storee.storeproductservice.mapper;
 
-import com.myfirststore.storee.product.dto.ProductDto;
-import com.myfirststore.storee.product.entity.Product;
+import com.myfirststore.storee.storeproductservice.dto.ProductDto;
+import com.myfirststore.storee.storeproductservice.entity.Product;
 import org.springframework.stereotype.Component;
 
 @Component

@@ -1,4 +1,4 @@
-package com.myfirststore.storee.product.exception;
+package com.myfirststore.storee.storeproductservice.exception;
 
 import org.springframework.validation.BindingResult;
 

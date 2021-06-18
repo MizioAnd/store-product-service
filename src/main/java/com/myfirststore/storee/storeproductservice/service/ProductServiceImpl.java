@@ -1,8 +1,8 @@
-package com.myfirststore.storee.product.service;
+package com.myfirststore.storee.storeproductservice.service;
 
-import com.myfirststore.storee.product.dto.ProductDto;
-import com.myfirststore.storee.product.mapper.ProductMapper;
-import com.myfirststore.storee.product.repository.ProductRepository;
+import com.myfirststore.storee.storeproductservice.dto.ProductDto;
+import com.myfirststore.storee.storeproductservice.mapper.ProductMapper;
+import com.myfirststore.storee.storeproductservice.repository.ProductRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

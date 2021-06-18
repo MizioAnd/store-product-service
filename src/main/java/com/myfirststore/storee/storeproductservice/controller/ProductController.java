@@ -1,10 +1,10 @@
-package com.myfirststore.storee.product.controller;
+package com.myfirststore.storee.storeproductservice.controller;
 
-import com.myfirststore.storee.product.dto.ProductDto;
-import com.myfirststore.storee.product.exception.BeanValidationException;
-import com.myfirststore.storee.product.exception.ProductNotFoundException;
-import com.myfirststore.storee.product.service.ProductService;
-import com.myfirststore.storee.product.util.UriUtil;
+import com.myfirststore.storee.storeproductservice.dto.ProductDto;
+import com.myfirststore.storee.storeproductservice.exception.BeanValidationException;
+import com.myfirststore.storee.storeproductservice.exception.ProductNotFoundException;
+import com.myfirststore.storee.storeproductservice.service.ProductService;
+import com.myfirststore.storee.storeproductservice.util.UriUtil;
 import org.springframework.context.MessageSource;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;

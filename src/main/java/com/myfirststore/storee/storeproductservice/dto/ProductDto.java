@@ -1,4 +1,4 @@
-package com.myfirststore.storee.product.dto;
+package com.myfirststore.storee.storeproductservice.dto;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;

@@ -1,7 +1,7 @@
-package com.myfirststore.storee.product.exception;
+package com.myfirststore.storee.storeproductservice.exception;
 
-import com.myfirststore.storee.product.util.MessageSourceProperties;
-import com.myfirststore.storee.product.util.UriUtil;
+import com.myfirststore.storee.storeproductservice.util.MessageSourceProperties;
+import com.myfirststore.storee.storeproductservice.util.UriUtil;
 import org.springframework.context.MessageSource;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ExceptionHandler;

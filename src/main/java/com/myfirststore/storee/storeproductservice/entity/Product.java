@@ -1,4 +1,4 @@
-package com.myfirststore.storee.product.entity;
+package com.myfirststore.storee.storeproductservice.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

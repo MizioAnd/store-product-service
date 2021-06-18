@@ -1,6 +1,6 @@
-package com.myfirststore.storee.product.service;
+package com.myfirststore.storee.storeproductservice.service;
 
-import com.myfirststore.storee.product.dto.ProductDto;
+import com.myfirststore.storee.storeproductservice.dto.ProductDto;
 
 import java.util.List;
 import java.util.Optional;

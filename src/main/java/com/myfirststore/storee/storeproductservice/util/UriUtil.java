@@ -1,4 +1,4 @@
-package com.myfirststore.storee.product.util;
+package com.myfirststore.storee.storeproductservice.util;
 
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
