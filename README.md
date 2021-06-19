@@ -26,7 +26,6 @@ CREATE TABLE IF NOT EXISTS product (
     CONSTRAINT pk_product_id PRIMARY KEY(id)
 );
 
-
 mysql> create user 'springuser'@'%' identified by 'ThePassword'; -- Creates the user
 mysql> grant all on storee.* to 'springuser'@'%'; -- Gives all privileges to the new user on the newly created database
 
