@@ -29,6 +29,12 @@ CREATE TABLE IF NOT EXISTS product (
 mysql> create user 'springuser'@'%' identified by 'ThePassword'; -- Creates the user
 mysql> grant all on storee.* to 'springuser'@'%'; -- Gives all privileges to the new user on the newly created database
 
+If you use Maven, you can run the application by using 
+
+$ ./mvnw spring-boot:run
+
+Alternatively, you can build the JAR file with ./mvnw clean package and then run the JAR file, as follows:
+
 To build on linux,
 
 $ ./mvnw clean package
