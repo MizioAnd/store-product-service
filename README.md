@@ -1,6 +1,5 @@
 # store-product-service
-
-This project is a RESTful Web service API with spring boot and spring MVC
+This project is a RESTful Web service API with spring boot and spring MVC.
 
 Spring initalizr was used partly to create Maven build system using the VS code plugin.
 
