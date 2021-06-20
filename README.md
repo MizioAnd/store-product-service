@@ -1,5 +1,5 @@
 # store-product-service
-This project is a RESTful Web service API with spring boot and spring MVC.
+This project is a RESTful Web service API with spring boot and spring MVC. The project uses java 11 with the spring framework many of the annotations that comes with it.
 
 Spring initalizr was used partly to create Maven build system using the VS code plugin.
 
@@ -92,3 +92,19 @@ showing the product created above.
     "createdAt": "2021-06-19T17:24:44+02:00"
   }
 ]
+
+
+Let us update an existing item corresponding to products/{id} where in below curl request id=2 and we have change the "name",
+
+$ curl -X PUT -H "Content-Type: application/json" http://localhost:7000/storee/api/v1/products/2 -d '{ "name": "Hello and fake Samsung Galaxy S20", "description": "Samsung Galaxy S20", "price": 50000, "quantity": 25 }' | jq '.'
+
+We still need to pass all input parameter (name, price, quantity) inside the input json otherwise an error msg occurs as specified in message.properties which is used in ProductDto.java when field is null. It can also be tested that both update and create work perfectly fine using json input with not set description i.e. field is null.
+
+Lets delete an entry with id=3
+
+$ curl -X DELETE http://localhost:7000/storee/api/v1/products/3 | jq '.'
+
+Trying to delete same product returns with status code 404 and error msg,
+"message": "Product with ID 3 was not found."
+
+as expected.
